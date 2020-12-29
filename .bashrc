@@ -116,6 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# personal settings
 if [ -d ~/.bashrc.d ]; then
     for file in $(/bin/ls ~/.bashrc.d/*.bashrc); do
         . $file;
