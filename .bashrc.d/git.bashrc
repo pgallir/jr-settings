@@ -1,4 +1,10 @@
 #!/bin/bash
+
+export GIT_PS1_SHOWDIRTYSTATE=true      # staged '+', unstaged '*'
+export GIT_PS1_SHOWUNTRACKEDFILES=true  # '%' untracked files
+export GIT_PS1_SHOWUPSTREAM="auto"      # '<' behind, '>' ahead, '<>' diverged, '=' no difference
+export GIT_PS1_SHOWSTASHSTATE=true      # '$' something is stashed
+
 # check if directory belongs to a git repo
 # if it does, errorcode ($?) will be 0
 function isgit() {

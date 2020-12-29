@@ -1,5 +1,5 @@
 #!/bin/bash
 
 cp ~/.bashrc .bashrc
-cp -R ~/.bashrc.d .bashrc.d
+cp ~/.bashrc.d/* .bashrc.d/
 
