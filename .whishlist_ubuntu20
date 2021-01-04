@@ -1,2 +1,5 @@
 ack
 build-essential
+latexmk
+texlive-latex-extra
+texlive-luatex
