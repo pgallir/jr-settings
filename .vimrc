@@ -2,6 +2,7 @@ syntax enable
 set tabstop=2
 set expandtab
 set number
+set hlsearch
 filetype indent on
 set autoindent
 colorscheme pablo
