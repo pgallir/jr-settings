@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ubuntu20() {
-    WISHLIST=".whishlist_ubuntu20"
+    WISHLIST=".wishlist_ubuntu20"
 }
 
 install_all() {
